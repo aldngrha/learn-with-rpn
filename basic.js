@@ -7,7 +7,6 @@ let age = 25;
 let isTrue = true;
 let money = 5000.5;
 
-
 let number1 = 10;
 let number2 = 20;
 console.log(number1 + number2);
@@ -18,14 +17,14 @@ console.log(number1 % number2);
 
 let result = number1 + number2;
 console.log(result);
-penampungHasil = number1 - number2;
+result = number1 - number2;
 console.log(result);
-penampungHasil = number1 / number2;
-console.log(penampungHasil);
-penampungHasil = number2 * number2;
-console.log(penampungHasil);
-penampungHasil = number2 % number2;
-console.log(penampungHasil);
+result = number1 / number2;
+console.log(result);
+result = number2 * number2;
+console.log(result);
+result = number2 % number2;
+console.log(result);
 
 let firstName = "Aldi";
 let lastName = "Nugraha";
@@ -39,6 +38,7 @@ console.log(number + 10); //30
 number = 10;
 console.log(number + 10); //20
 
+// error
 const animal = "gajah";
 console.log(animal);
 animal = "kucing";
