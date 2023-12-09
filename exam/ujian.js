@@ -92,13 +92,13 @@ function xo(str) {
   let x = 0; // init x dengan nilai awal 0
   let o = 0; // init o dengan nilai awal 0
   for (let i of str) { // iterasi nilai dari parameter str, maksudnya ambil satu persatu dari nilai str dan disimpan ke dalam variable i
-    if (i === 'x') { // jika i sama dengan x
+    if (i === 'x' || i === "X") { // jika i sama dengan x atau i sama dengan X
       x++ // tambah 1 atau dinaikan atau diincrement
-    } else { // selain itu, kalau i === o
+    } else if (i === 'o' || i === 'O') { // selain itu, kalau i === o atau i === O
       o++ // tambah 1 juga
     }
   }
-  return x === o // kembalikan nilainya, apakah jumlah x sama dengan jumlah 0
+  return x === o // kembalikan nilainya, apakah jumlah x sama dengan jumlah o
 }
 
 // TEST CASES
